@@ -11,10 +11,10 @@ public class Peixe extends Animal {
 	}
 
 	public void dados() {
-		System.out.println("\nNome: " + this.getNome() + "\nComprimento: " + this.getComprimento() + " cm" + "\nCor: "
+		System.out.println("Nome: " + this.getNome() + "\nComprimento: " + this.getComprimento() + " cm" + "\nCor: "
 				+ this.getCor() + "\nAmbiente: " + this.getAmbiente() + "\nVelocidade: " + this.getVelocidade() + " m/s"
 				+ "\nPatas: " + this.getPatas() + "\nCaracteristica: " + this.getCaracteristica());
-		System.out.println("-------------------");
+		System.out.println("------------------------");
 	}
 
 	public String getCaracteristica() {
